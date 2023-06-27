@@ -4,7 +4,6 @@ const decrButton = document.querySelector("[data-action = decrement]");
 const incrButton = document.querySelector("[data-action = increment]");
 
 const counterValue = document.querySelector("#value");
-console.log(counterValue);
 
 let value = 0;
 

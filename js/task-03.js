@@ -19,6 +19,6 @@ const makeGallery = images.map((element) => makeImage(element));
 console.log(makeGallery);
 
 const listEl = document.querySelector(".gallery");
-     console.dir(listEl);
+    console.dir(listEl);
 
 listEl.insertAdjacentHTML("beforeend", makeGallery);

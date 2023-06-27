@@ -19,8 +19,10 @@ function onSendForm (event) {
         formData.password = password.value;
     console.log(formData);
     };
+
     event.currentTarget.reset();    
 };
+
 
 
 

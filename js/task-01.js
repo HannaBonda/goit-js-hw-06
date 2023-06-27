@@ -1,3 +1,4 @@
+
 const categoryListEl = document.querySelector('#categories');
 console.log(categoryListEl);
 

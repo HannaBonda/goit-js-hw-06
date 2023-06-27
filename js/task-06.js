@@ -2,10 +2,11 @@
 const inputEl = document.querySelector("#validation-input");
 console.log(inputEl.dataset.length);
 
-    inputEl.addEventListener('blur', onCheckInput);
+inputEl.addEventListener('blur', onCheckInput);
 
-    function onCheckInput () {
+  function onCheckInput () {
      let numberReal = inputEl.value.length;
+     
        if (numberReal === Number(inputEl.dataset.length)) {
            inputEl.classList.add('valid');
            inputEl.classList.remove('invalid');
